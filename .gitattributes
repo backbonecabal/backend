@@ -1,0 +1,12 @@
+*.xml    text
+*.xsd    text
+*.xsl    text
+*.yml    text
+*.sh     eol=lf
+*.bash   eol=lf
+git_ssh text eol=lf
+repo text eol=lf
+hooks/* text eol=lf
+*.gpg filter=gpg diff=gpg
+*.asc filter=gpg diff=gpg
+date*.txt filter=dater
